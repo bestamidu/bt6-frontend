@@ -1,0 +1,48 @@
+body{
+    text-align:center ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.backgr{
+background-color: rgba(14, 121, 251, 0.956);
+padding: 15px ;
+color: white;
+}
+.nav{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 80% auto;
+    
+}
+.profile{
+
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+.profile img{
+    width: 150px;
+    border-radius: 60%;
+    border: 3px solid blue;
+    display: flex;
+    height: 130px;
+}
+.footer{
+    color: black;
+    background-color: rgb(224, 224, 224);
+    padding: 10px ;
+}
+.footer a{
+    color:blue;
+    
+}

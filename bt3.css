@@ -1,0 +1,66 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    background-color: hsla(249, 29%, 13%, 0.986);
+    color: white;
+   display: flex;
+   align-items: center;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-left: 950px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    padding-left: 10px;
+    font-size: 24px;
+}
+.profile {
+    display: flex;
+    gap: 20px;
+    
+    padding-left: 25px;
+    align-items: center;
+    padding-bottom: 35px;
+    background-color: rgb(233, 233, 233);
+}
+.profile img{
+    margin-top: 20px;
+    width: 140px;
+    border-radius: 60%;
+    border: 3px solid blue;
+    display: flex;
+    height: 150px;
+}
+.social-links{
+    text-align: center;
+    background-color:  rgb(233, 233, 233);
+    margin-top: 20px;
+    padding: 3px;
+}
+.social-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.project-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.project-button{
+    padding: 13px 100px;
+    background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 500px;
+
+}

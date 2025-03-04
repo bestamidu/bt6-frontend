@@ -5,14 +5,16 @@ body{
 .menu{
     background-color: hsla(249, 29%, 13%, 0.986);
     color: white;
-   display: flex;
-   align-items: center;
-}
-.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 33px;
+    }
+.menu ul {
     list-style: none;
     display: flex;
     gap: 10px;
-    padding-left: 950px;
+   
 }
 .menu a{
     color: white;
